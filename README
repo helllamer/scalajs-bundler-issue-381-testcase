@@ -1,0 +1,10 @@
+Example test-case for reproducing issue in scalajs-bundler:
+https://github.com/scalacenter/scalajs-bundler/issues/381
+
+In file project/plugins.sbt change scalajs and bundler versions to 1.2.0 and 0.18
+respectively to fix regression.
+
+Steps to reproduce:
+1. Launch sbt
+2. test
+
